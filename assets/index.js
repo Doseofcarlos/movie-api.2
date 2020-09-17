@@ -29,7 +29,7 @@ function hogwartsHousing(){
     }).then(function(response){
         console.log(response);
         console.log(response[0].members[0]);
-        characterSelect(response[1].members[1])
+        characterSelect(response[0].members[0])
     })
 }
 
