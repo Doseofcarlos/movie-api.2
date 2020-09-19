@@ -1,0 +1,29 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/22919.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+    #footer {
+        position:absolute;
+        bottom:0;
+        width:100%;
+        height:60px;   /* Height of the footer */
+        background:#6cf;
+        };
+        
+        .tenor-gif-embed{
+        max-resolution: left 50%;;
+        margin-right:50%;
+        float :50%;
+        }  
+                
+        .carousel .item>img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 100%;
+    }
+                
+        
