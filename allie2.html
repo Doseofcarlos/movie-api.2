@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HP Quiz</title>
+
+    <link rel="stylesheet" href="allie2.css" />
+
+    <body>
+<header>
+<nav style=color:black class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" style=color:black href="index.html">Home</a>
+        <a class="navbar-brand" style=color:black href="allie3.html">Highscores</a>
+        <a class="navbar-brand" style=color:black href="character.html">Characters</a>
+        <a class="navbar-brand" style=color:black href="allie.html">Sorting-Hat</a>
+        <a class="navbar-brand" style=color:black href="index.html">Movies</a>
+        <a class="navbar-brand"  style=color:black href="index.html">Spells</a>
+        </ul>
+        </div>
+        </nav>
+</header>
+        <!--Timer-->
+    <div class="timer">Time: <span id="time">0</span></div>
+        <!--Main Content-->
+    <div class="wrapper">
+    <div id="start-screen" style=color:white class="start">
+        <h1> HP Quiz Challenge</h1>
+        <p>
+        Try to answer the following Harry Potter questions you may have learned through out the sight.
+        Test your knowledge and beat the timer! Keep in mind that incorrect answers will penalize your
+        score & time by 10 seconds!
+        </p>
+        <button id="start">Start Quiz</button>
+        </div>
+
+        <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+        </div>
+        <!--End Content-->
+        <div id="end-screen" class="hide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+            Enter initials: <input type="text" id="initials" max="3" />
+            <button id="submit">Submit</button>
+        </p>
+        </div>
+
+        <div id="feedback" class="feedback hide"></div>
+    </div>
+    <!--Linking Questions page-->
+    <script src="alliequestions.js"></script>
+
+    <!--Linking  Javascript Page-->
+    <script src="allie2.js"></script>
+    </body>
+</html>

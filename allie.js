@@ -17,6 +17,7 @@ $("#container-2").append(houseEl)
         //added with new data 
     });
 }
+// creating a click event to "sortingHat"
 $("#sorting-btn").on("click",sortingHat)
 
 
@@ -43,7 +44,7 @@ function characterSelect(characterId){
     })
 }
 sortingHat();
-// hogwartsHousing();
+ hogwartsHousing();
 
 
 

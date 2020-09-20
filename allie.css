@@ -11,19 +11,31 @@ body {
         height:60px;   /* Height of the footer */
         background:#6cf;
         };
+        .Hat{
+            text-align: center;
+        }
         
-        .tenor-gif-embed{
-        max-resolution: left 50%;;
-        margin-right:50%;
-        float :50%;
-        }  
-                
-        .carousel .item>img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            height: 100%;
-    }
-                
+        .sortinghat{
+            widows: 50px;
+            height:auto;
+        }
         
+        .hufflepuff{
+        width: 150px;
+        height: auto;
+        }
+        
+        .slytherin{
+            width: 150px;
+            height: auto;
+        }
+        
+        .gryffindor{
+            width: 150px;
+            height: auto;
+        }
+        
+        .ravenclaw{
+                width:150px;
+                height:auto
+            }
