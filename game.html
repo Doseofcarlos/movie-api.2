@@ -6,26 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HP Quiz</title>
 
-    <link rel="stylesheet" href="allie2.css" />
-
+    <link rel="stylesheet" href="game.css" />
+    <link rel=“stylesheet” href=“https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css” integrity=“sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z” crossorigin=“anonymous”>
+    <script src=“https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js”></script>
+    <script src=“https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js”></script>
     <body>
 <header>
 <nav style=color:black class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" style=color:black href="index.html">Home</a>
-        <a class="navbar-brand" style=color:black href="allie3.html">Highscores</a>
+        <a class="navbar-brand" style=color:black href="highscores.html">Highscores</a>
         <a class="navbar-brand" style=color:black href="character.html">Characters</a>
-        <a class="navbar-brand" style=color:black href="allie.html">Sorting-Hat</a>
+        <a class="navbar-brand" style=color:black href="sortinghat.html">Sorting-Hat</a>
         <a class="navbar-brand" style=color:black href="index.html">Movies</a>
         <a class="navbar-brand"  style=color:black href="index.html">Spells</a>
         </ul>
         </div>
         </nav>
+   
 </header>
         <!--Timer-->
     <div class="timer">Time: <span id="time">0</span></div>
+
         <!--Main Content-->
     <div class="wrapper">
-    <div id="start-screen" style=color:white class="start">
+    <div id="start-screen" style=color:black class="start">
         <h1> HP Quiz Challenge</h1>
         <p>
         Try to answer the following Harry Potter questions you may have learned through out the sight.
@@ -52,9 +56,9 @@
         <div id="feedback" class="feedback hide"></div>
     </div>
     <!--Linking Questions page-->
-    <script src="alliequestions.js"></script>
+    <script src="questions.js"></script>
 
     <!--Linking  Javascript Page-->
-    <script src="allie2.js"></script>
+    <script src="game.js"></script>
     </body>
 </html>

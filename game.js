@@ -12,22 +12,20 @@ var startBtn = document.getElementById("start");
 var initialsEl = document.getElementById("initials");
 var feedbackEl = document.getElementById("feedback");
 var questionTitle = document.getElementById("question-title");
-// sound effects
-var sfxRight = new Audio("04-Web-APIs_02-Homework_Develop_assets_sfx_correct.wav");
-var sfxWrong = new Audio("04-Web-APIs_02-Homework_Develop_assets_sfx_incorrect.wav");
+
 
 function startQuiz() {
   // hide start screen
 var startScreenEl = document.getElementById("start-screen");
 startScreenEl.setAttribute("class","hide");
   // un-hide questions section;
-    questionsEl.removeAttribute("class");
+  questionsEl.removeAttribute("class");
   //  start timer
-    timerId = setInterval(clockTick, 1000);
+  timerId = setInterval(clockTick, 1000);
   // show starting time
-    timerEl.textContent= time;
+  timerEl.textContent= time;
 
-    getQuestion();
+  getQuestion();
 }
 function getQuestion() {
   // get current question object from array
@@ -56,31 +54,29 @@ choiceNode.onclick = questionClick;
 }
 function questionClick() {
   //  check if user guessed wrong
-    if (this.value != questions[currentQuestionIndex].answer){
+   if (this.value != questions[currentQuestionIndex].answer){
     // penalize time
     time -=10;
     if (time <0){
-        time = 0;
+      time = 0;
     }
 // displaying new time
 timerEl.textContent= time;
-    // play "wrong" sound effect
-        sfxWrong.play();
-    
-        feedbackEl.textContent ="wrong!";
-    } else {
+   
+  
+   feedbackEl.textContent ="wrong!";
+  } else {
 
-    // play "right" sound effect
-sfxRight.play();
+
 
 feedbackEl.textContent="Correct!";
 }
 
   // flash right/wrong feedback on page for half a second
-    feedbackEl.setAttribute("class","feedback");
-    setTimeout(function(){
+  feedbackEl.setAttribute("class","feedback");
+  setTimeout(function(){
     feedbackEl.setAttribute("class","feedback hide");
-    },1000);
+  },1000);
 
   // move to next question
 currentQuestionIndex++;
@@ -88,10 +84,10 @@ currentQuestionIndex++;
 
   // check if we've run out of questions
 if (currentQuestionIndex === questions.length){
-    quizEnd();
+  quizEnd();
 } else {
-    getQuestion();
-    }
+ getQuestion();
+  }
 }
 
 function quizEnd() {
@@ -104,7 +100,7 @@ endScreenEl.removeAttribute("class");
 var finalScoreEl = document.getElementById("final-score")
 finalScoreEl.textContent =time;
   // hide questions section
-    questionsEl.setAttribute("class","hide");
+  questionsEl.setAttribute("class","hide");
 }
 
 function clockTick() {
@@ -112,17 +108,17 @@ function clockTick() {
 time--;
 timerEl.textContent =time;
   // check if user ran out of time
-    if (time <= 0){
+  if (time <= 0){
     quizEnd();
-    }
+  }
 }
 
 function saveHighscore() {
   // get value of input box
-    var initials = initialsEl.value.trim();
+  var initials = initialsEl.value.trim();
 
   // make sure value wasn't empty
-    if (initialsEl !== ""){
+  if (initialsEl !== ""){
 
     // get saved scores from localstorage, or if not any, set to empty array
 var highscores =
@@ -130,28 +126,30 @@ JSON.parse(window.localStorage.getItem("highscores")) || [];
 
     // format new score object for current user
 var newScore = {
-    score: time,
-    initials: initials
+  score: time,
+  initials: initials
 };
     // save to localstorage
 highscores.push(newScore);
 window.localStorage.setItem("highscores", JSON.stringify(highscores));
     // redirect to next page
-    window.location.href = "alliescores.js";
-    }
+  window.location.href = "highscores.html";
+  
+ }
 
 }
 
 function checkForEnter(event) {
   // check if event key is enter
-    if (event.key === "Enter"){
-    saveHighscore(); 
-    }
+  if (event.key === "Enter"){
+  saveHighscore(); 
+  }
 }
 // user clicks button to submit initials
 submitBtn.onclick = saveHighscore;
 
 // user clicks button to start quiz
 startBtn.onclick = startQuiz;
+console.log(startBtn)
 
 initialsEl.onkeyup = checkForEnter;
