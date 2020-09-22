@@ -10,8 +10,8 @@ function sortingHat(){
     }).then(function(response) {
         console.log(response);
         var house = response;
-        var houseEl = $("<h4>").text(response).addClass("text-white")
-        $("#container-2").append(houseEl)
+        // var houseEl = $("<h4>").text(response).addClass("text-white")
+        // $("#container-2").append(houseEl)
         hogwartsHousing(house);
     });
 }
