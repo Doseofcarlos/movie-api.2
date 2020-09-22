@@ -12,6 +12,11 @@ body {
     padding-top: 3px;
 }
 
+.source{
+    color:grey;
+    font-size: smaller;
+}
+
 .center {
     border: 5px solid #ddd;
     width: 80%;
