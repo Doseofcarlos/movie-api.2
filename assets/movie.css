@@ -1,0 +1,26 @@
+*  {
+width: auto;
+}
+
+.container {
+    font-family : 'Grenze Gotisch', cursive;
+    background-color: rgb(170, 168, 152);
+    text-align: center;
+}
+
+/*.navbar {
+    width: 100%;
+} */
+
+.bgPic  {
+    align-content: center;
+
+        width: 100%
+}
+
+.hpCharacter {
+
+    width: 100%;
+
+
+}
