@@ -2,17 +2,14 @@ body {
     font-family: Arial;
     font-size: 120%;
     }
-    
     a {
     color:gold;
     text-decoration: none;
     transition: color 0.1s;
     }
-    
     a:hover {
     color:gold;
     }
-    
     button {
     display: inline-block;
     margin: 5px;
@@ -25,25 +22,15 @@ body {
     border: 0;
     transition: background-color 0.1s;
     }
-    
     button:hover {
     background-color: gold;
     }
-    
     .choices button {
     display: block;
     }
-    
     input[type="text"] {
     font-size: 100%;
     }
-    
-    /* ol {
-    padding-left: 0px;
-    max-height: 400px;
-    overflow: auto;
-    }
-     */
 
     #highscores{
         padding-left: 0px;
@@ -51,34 +38,21 @@ body {
         overflow: auto; 
     } 
 
-    /* li {
-    padding: 5px;
-    list-style: decimal inside none;
-    }
-    
-    li:nth-child(odd) {
-    background-color: grey;
-    } */
-    
     .wrapper {
     margin: 100px auto 0 auto;
     max-width: 600px;
     }
-
 .hide {
     display: none;
     }
-    
 .start {
     text-align: center;
     }
-    
 .scores {
     position: absolute;
     top: 10px;
     left: 10px;
     }
-    
 .feedback {
     font-style: italic;
     font-size: 120%;
@@ -87,7 +61,6 @@ body {
     color: gray;
     border-top: 2px solid #ccc;
     }
-    
 .timer {
     position: absolute;    
     top: 70px;
@@ -100,4 +73,14 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8692d7;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding-top: 3px;
+    }
