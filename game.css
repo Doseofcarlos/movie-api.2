@@ -38,20 +38,27 @@ body {
     font-size: 100%;
     }
     
-    ol {
+    /* ol {
     padding-left: 0px;
     max-height: 400px;
     overflow: auto;
     }
-    
-    li {
+     */
+
+    #highscores{
+        padding-left: 0px;
+        max-height: 400px;
+        overflow: auto; 
+    } 
+
+    /* li {
     padding: 5px;
     list-style: decimal inside none;
     }
     
     li:nth-child(odd) {
     background-color: grey;
-    }
+    } */
     
     .wrapper {
     margin: 100px auto 0 auto;
@@ -82,9 +89,10 @@ body {
     }
     
 .timer {
-    position: absolute;
-    top: 10px;
+    position: absolute;    
+    top: 70px;
     right: 10px;
+    color: black; 
     }
 body {
     background-image: url('https://images-na.ssl-images-amazon.com/images/I/816QYMUzAML._AC_SL1500_.jpg');
@@ -93,3 +101,17 @@ body {
     background-position: center;
 }
 
+<<<<<<< HEAD
+=======
+#footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #8692d7;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding-top: 3px;
+  }
+>>>>>>> 5807b278a8b6ab28b63f14b33f76d4f2f8ba13cb

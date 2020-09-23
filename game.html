@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HP Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
 
-    <link rel="stylesheet" href="game.css" />
-    <link rel=“stylesheet” href=“https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css” integrity=“sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z” crossorigin=“anonymous”>
-    <script src=“https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js”></script>
-    <script src=“https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js”></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="game.css">
+         <title>Developers of Magic</title>
+    </head>
     <body>
-<header>
-<nav style=color:black class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" style=color:black href="index.html">Home</a>
-        <a class="navbar-brand" style=color:black href="highscores.html">Highscores</a>
-        <a class="navbar-brand" style=color:black href="character.html">Characters</a>
-        <a class="navbar-brand" style=color:black href="sortinghat.html">Sorting-Hat</a>
-        <a class="navbar-brand" style=color:black href="index.html">Movies</a>
-        <a class="navbar-brand"  style=color:black href="index.html">Spells</a>
-        </ul>
-        </div>
-        </nav>
-   
-</header>
-        <!--Timer-->
+    
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Developers Of Magic</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="sortinghat.html">Sorting-Hat</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="character.html">Characters</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="movies.html">Movies</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="3">Game</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="highscores.html">Highscores</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+    
+    <!--Main Content-->
+    <br><br><br>
+    <div class="wrapper">
+    <!--Timer-->
     <div class="timer">Time: <span id="time">0</span></div>
 
-        <!--Main Content-->
-    <div class="wrapper">
     <div id="start-screen" style=color:black class="start">
         <h1> HP Quiz Challenge</h1>
         <p>
@@ -37,12 +62,12 @@
         score & time by 10 seconds!
         </p>
         <button id="start">Start Quiz</button>
-        </div>
+    </div>
 
-        <div id="questions" class="hide">
+      <div id="questions" class="hide">
         <h2 id="question-title"></h2>
         <div id="choices" class="choices"></div>
-        </div>
+      </div>
         <!--End Content-->
         <div id="end-screen" class="hide">
         <h2>All done!</h2>
@@ -55,6 +80,11 @@
 
         <div id="feedback" class="feedback hide"></div>
     </div>
+    <br><br>
+    <!-- Footer -->
+    <footer id="footer" class="fixed-bottom"> 
+      <div><p id="Copyright">© 2017-2020 Company, Inc.</p></div>
+    </footer>
     <!--Linking Questions page-->
     <script src="questions.js"></script>
 

@@ -10,8 +10,8 @@ function sortingHat(){
     }).then(function(response) {
         console.log(response);
         var house = response;
-        var houseEl = $("<h4>").text(response).addClass("text-white")
-        $("#container-2").append(houseEl)
+        // var houseEl = $("<h4>").text(response).addClass("text-white")
+        // $("#container-2").append(houseEl)
         hogwartsHousing(house);
     });
 }
@@ -28,6 +28,7 @@ function hogwartsHousing(house){
         GetInformationHouse(result, house);
     })
 }
+// adding a house api with definitions appending to sortinghat
 function GetInformationHouse (result, house){
     $("#container-fluid").empty()   
     for (var iloop = 0; iloop < result.length; iloop++ ){
