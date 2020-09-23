@@ -31,13 +31,21 @@ body {
     input[type="text"] {
     font-size: 100%;
     }
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> 202e73c38b9cff7ceef86bef560772f593f492a8
     #highscores{
         padding-left: 0px;
         max-height: 400px;
         overflow: auto; 
     } 
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> 202e73c38b9cff7ceef86bef560772f593f492a8
     .wrapper {
     margin: 100px auto 0 auto;
     max-width: 600px;
