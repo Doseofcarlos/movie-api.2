@@ -1,5 +1,5 @@
 # movie-api.2
-.  This site was to created  will basically give you the spark notes on the JK Rowlings Harry Potter series. 
+.  This site was to created to give you the spark notes on the JK Rowlings Harry Potter series. 
 
 .  Motivation for development? 
 The motivation behind this was although some have not seen or read the series they can still join in on the fun and get a taste of the magic the series has to offer.
