@@ -18,3 +18,6 @@ Our website was developed in:
 . Our movies page as well use JSON to get information from OMDb Api where you can sort the movies and check the facts, images, plot and rating etc.
 
 .Our site is responsive and the NavBar will go into a hamburger navbar once screen is minimized
+
+Webiste Examples:
+![Image Of Webite home screen](https://doseofcarlos.github.com/assets/Screen Shot 2020-09-23 at 6.13.28 PM.png) 
