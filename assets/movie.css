@@ -24,3 +24,8 @@ width: auto;
 
 
 }
+#Copyright{
+    text-align:center;
+    color:grey;
+    padding-top: 3px;
+}
