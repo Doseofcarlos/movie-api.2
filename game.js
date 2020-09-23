@@ -24,6 +24,7 @@ startScreenEl.setAttribute("class","hide");
   timerId = setInterval(clockTick, 1000);
   // show starting time
   timerEl.textContent= time;
+  timerEl.setAttribute('style','color: white;');
 
   getQuestion();
 }
