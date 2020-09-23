@@ -4,12 +4,13 @@ $(document).ready(function(){
 
 // Initial array of movies
 var movies = ["Harry Potter and the Sorcerer's Stone", 
-"Harry Potter and the Prisoner of Azkaban", 
-"Harry Potter and the Goblet of Fire", 
-"Harry Potter and the Order of the Phoenix",
-"Harry Potter and the Half-Blood Prince"];
+                    "Harry Potter and the Prisoner of Azkaban", 
+                    "Harry Potter and the Goblet of Fire", 
+                    "Harry Potter and the Order of the Phoenix",
+                    "Harry Potter and the Half-Blood Prince",
+                    "Harry Potter and the Deathly Hallows – Part 1",
+                    "Harry Potter and the Deathly Hallows – Part 2"];
 
-console.log("HarryPotter");
 
 // displayMovieInfo function re-renders the HTML to display the appropriate content
 function displayMovieInfo() {
