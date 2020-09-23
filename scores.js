@@ -23,5 +23,5 @@ function clearHighscores() {
 // clear hs button
 var clearbtn = document.getElementById("clear")
 console.log(document)
-// .addEventListener("click", clearHighscores); 
+ .addEventListener("click", clearHighscores); 
 printHighscores();
