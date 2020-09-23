@@ -20,10 +20,10 @@ Our website was developed in:
 .Our site is responsive and the NavBar will go into a hamburger navbar once screen is minimized
 
 Website Examples:
-![Image of Home page](https://doseofcarlos.github.com/assets/HomePage.png)
-![Image of Sorting-Hat page](https://doseofcarlos.github.com/assets/SortingHatPage.png)
-![Image of Character page](https://doseofcarlos.github.com/assets/CharacterPage.png)
-![Image of Movie page](https://doseofcarlos.github.com/assets/Moviepage.png)
-![Image of Game page](https://doseofcarlos.github.com/assets/GamePage.png)
+![Image of Home page](https://Doseofcarlos.github.com/assets/HomePage.png)
+![Image of Sorting-Hat page](https://Doseofcarlos.github.com/assets/SortingHatPage.png)
+![Image of Character page](https://Doseofcarlos.github.com/assets/CharacterPage.png)
+![Image of Movie page](https://Doseofcarlos.github.com/assets/Moviepage.png)
+![Image of Game page](https://Doseofcarlos.github.com/assets/GamePage.png)
 
 
