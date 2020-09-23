@@ -2,17 +2,14 @@ body {
     font-family: Arial;
     font-size: 120%;
     }
-    
     a {
     color:gold;
     text-decoration: none;
     transition: color 0.1s;
     }
-    
     a:hover {
     color:gold;
     }
-    
     button {
     display: inline-block;
     margin: 5px;
@@ -25,60 +22,45 @@ body {
     border: 0;
     transition: background-color 0.1s;
     }
-    
     button:hover {
     background-color: gold;
     }
-    
     .choices button {
     display: block;
     }
-    
     input[type="text"] {
     font-size: 100%;
     }
+<<<<<<< HEAD
     
-    /* ol {
-    padding-left: 0px;
-    max-height: 400px;
-    overflow: auto;
-    }
-     */
+=======
 
+>>>>>>> 202e73c38b9cff7ceef86bef560772f593f492a8
     #highscores{
         padding-left: 0px;
         max-height: 400px;
         overflow: auto; 
     } 
+<<<<<<< HEAD
+    
+=======
 
-    /* li {
-    padding: 5px;
-    list-style: decimal inside none;
-    }
-    
-    li:nth-child(odd) {
-    background-color: grey;
-    } */
-    
+>>>>>>> 202e73c38b9cff7ceef86bef560772f593f492a8
     .wrapper {
     margin: 100px auto 0 auto;
     max-width: 600px;
     }
-
 .hide {
     display: none;
     }
-    
 .start {
     text-align: center;
     }
-    
 .scores {
     position: absolute;
     top: 10px;
     left: 10px;
     }
-    
 .feedback {
     font-style: italic;
     font-size: 120%;
@@ -87,7 +69,6 @@ body {
     color: gray;
     border-top: 2px solid #ccc;
     }
-    
 .timer {
     position: absolute;    
     top: 70px;
@@ -100,4 +81,14 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8692d7;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding-top: 3px;
+    }
