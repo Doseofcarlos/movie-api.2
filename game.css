@@ -89,10 +89,10 @@ body {
     }
     
 .timer {
-    position: absolute;
-    top: 10px;
+    position: absolute;    
+    top: 70px;
     right: 10px;
-    color: white;
+    color: black; 
     }
 body {
     background-image: url('https://images-na.ssl-images-amazon.com/images/I/816QYMUzAML._AC_SL1500_.jpg');
