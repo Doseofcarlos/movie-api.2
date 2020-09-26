@@ -10,7 +10,8 @@ body {
     a:hover {
     color:gold;
     }
-    button {
+
+    .btnColor {
     display: inline-block;
     margin: 5px;
     cursor: pointer;
@@ -22,30 +23,23 @@ body {
     border: 0;
     transition: background-color 0.1s;
     }
-    button:hover {
+
+    /*button:hover {
     background-color: gold;
     }
     .choices button {
     display: block;
-    }
+    }*/
     input[type="text"] {
     font-size: 100%;
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 202e73c38b9cff7ceef86bef560772f593f492a8
     #highscores{
         padding-left: 0px;
         max-height: 400px;
         overflow: auto; 
     } 
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 202e73c38b9cff7ceef86bef560772f593f492a8
     .wrapper {
     margin: 100px auto 0 auto;
     max-width: 600px;
@@ -55,6 +49,7 @@ body {
     }
 .start {
     text-align: center;
+    color:black; 
     }
 .scores {
     position: absolute;
