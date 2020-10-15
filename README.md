@@ -18,7 +18,7 @@
 
 * Our site is responsive and the NavBar will go into a hamburger navbar once screen is minimized
 ## License :
-![badmath](https://img.shields.io/badge/license-${data.license}-green)
+![badmath](https://img.shields.io/badge/license-green)
 ## Website Examples:
 ![Image of Home page](assets/HomePage.png)
 ![Image of Sorting-Hat page](assets/SortingHatPage.png)
