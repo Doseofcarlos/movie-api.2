@@ -14,10 +14,11 @@
 
 * We used JSON to get information from the Potter Api for the sorting hat, characters as well as  houses, with different routes and the same key.
 
-* Our movies page as well use JSON to get information from OMDb Api where you can sort the movies and check the facts, images, plot and rating etc.
+* Our movies page as well use JSON to get information from OMDB Api where you can sort the movies and check the facts, images, plot and rating etc.
 
 * Our site is responsive and the NavBar will go into a hamburger navbar once screen is minimized
-
+## License :
+![badmath](https://img.shields.io/badge/license-${data.license}-green)![badmath]
 ## Website Examples:
 ![Image of Home page](assets/HomePage.png)
 ![Image of Sorting-Hat page](assets/SortingHatPage.png)
