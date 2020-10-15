@@ -9,6 +9,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
         <link rel="stylesheet" href="game.css">
             <title>Developers of Magic</title>
     </head>
@@ -16,28 +17,32 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">Developers Of Magic</a>
+<<<<<<< HEAD
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+=======
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+>>>>>>> 002520e771c561abcb466bc3ce5896587747e822
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="sortinghat.html">Sorting-Hat</a>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="sortinghat.html">Sorting-Hat</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="character.html">Characters</a>
+                <li class="nav-item">
+                    <a class="nav-link active" href="character.html">Characters</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="movies.html">Movies</a>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="movies.html">Movies</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="game.html">Game</a>
+                <li class="nav-item">
+                    <a class="nav-link active" href="game.html">Game</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="highscores.html">Highscores</a>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="highscores.html">Highscores</a>
                     </li>
                 </ul>
             </div>
@@ -48,14 +53,14 @@
     <div class="wrapper">
     <!--Timer-->
     <div class="timer">Time: <span id="time">0</span></div>
-    <div id="start-screen" style=color:black class="start">
+    <div id="start-screen" class="start">
         <h1> HP Quiz Challenge</h1>
         <p>
         Try to answer the following Harry Potter questions you may have learned through out the sight.
         Test your knowledge and beat the timer! Keep in mind that incorrect answers will penalize your
         score & time by 10 seconds!
         </p>
-        <button id="start">Start Quiz</button>
+        <button id="start" class="btnColor">Start Quiz</button>
     </div>
         <div id="questions" class="hide">
 
@@ -68,7 +73,7 @@
         <p>Your final score is <span id="final-score"></span>.</p>
         <p>
             Enter initials: <input type="text" id="initials" max="3" />
-            <button id="submit">Submit</button>
+            <button id="submit" class="btnColor">Submit</button>
         </p>
         </div>
         <div id="feedback" class="feedback hide"></div>

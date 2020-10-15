@@ -21,10 +21,10 @@ The motivation behind this was although some have not seen or read the series th
 * Our site is responsive and the NavBar will go into a hamburger navbar once screen is minimized
 
 Website Examples:
-![Image of Home page](https://Doseofcarlos.github.com/assets/HomePage.png)
-![Image of Sorting-Hat page](https://Doseofcarlos.github.com/assets/SortingHatPage.png)
-![Image of Character page](https://Doseofcarlos.github.com/assets/CharacterPage.png)
-![Image of Movie page](https://Doseofcarlos.github.com/assets/Moviepage.png)
-![Image of Game page](https://Doseofcarlos.github.com/assets/GamePage.png)
+![Image of Home page](assets/HomePage.png)
+![Image of Sorting-Hat page](assets/SortingHatPage.png)
+![Image of Character page](assets/CharacterPage.png)
+![Image of Movie page](assets/Moviepage.png)
+![Image of Game page](assets/GamePage.png)
 
 

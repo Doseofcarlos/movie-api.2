@@ -32,15 +32,31 @@ body {
         }
         
         .gryffindor{
-            width: 150px;
+            width: 156px;
             height: auto;
         }
         
         .ravenclaw{
-                width:150px;
+                width:156px;
                 height:auto
             }
         
             body {
                 font-family:Jazz LET, fantasy;
             }
+        .text-success{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .text-warning{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .text-primary{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .text-danger{
+            font-size: x-large;
+            font-weight: bold;
+        }
