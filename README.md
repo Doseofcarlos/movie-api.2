@@ -3,9 +3,7 @@
 * This site was to created to give the user spark notes on the JK Rowling's Harry Potter series. Click through each page to gain info on Characters, Movies, Sorting Hat, and finally test your knowledge in the QUIZ!
 
 ## Motivation for development? 
-The motivation behind this was although some have not seen or read the series they can still join in on the fun and get a taste of the magic the series has to offer.
-
-* The user of our site could be a long loving fan of the series or someone who has no idea what the series is. Our site is for everyone and anyone to join in on the fun!
+* The motivation behind this was although some have not seen or read the series they can still join in on the fun and get a taste of the magic the series has to offer. The user of our site could be a long loving fan of the series or someone who has no idea what the series is. Our site is for everyone and anyone to join in on the fun!
 
 ## Our website was developed in:
 * HTML Semantic tag
