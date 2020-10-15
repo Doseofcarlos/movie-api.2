@@ -20,7 +20,7 @@ The motivation behind this was although some have not seen or read the series th
 
 * Our site is responsive and the NavBar will go into a hamburger navbar once screen is minimized
 
-Website Examples:
+## Website Examples:
 ![Image of Home page](assets/HomePage.png)
 ![Image of Sorting-Hat page](assets/SortingHatPage.png)
 ![Image of Character page](assets/CharacterPage.png)
