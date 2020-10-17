@@ -10,8 +10,6 @@ function sortingHat(){
     }).then(function(response) {
         console.log(response);
         var house = response;
-        // var houseEl = $("<h4>").text(response).addClass("text-white")
-        // $("#container-2").append(houseEl)
         hogwartsHousing(house);
     });
 }
@@ -33,19 +31,34 @@ function GetInformationHouse (result, house){
     $("#container-fluid").empty()   
     for (var iloop = 0; iloop < result.length; iloop++ ){
         if (result[iloop].name == house){
-            var title = $("<h2>").text(result[iloop].name).addClass("text-white");
+            var title = $("<h2>").text(result[iloop].name)
+            switch(house){
+                case "Slytherin" :
+                    title.addClass("text-success");
+                    break;
+                case "Hufflepuff" :
+                    title.addClass("text-warning");
+                    break;
+                case "Ravenclaw" :
+                    title.addClass("text-primary");
+                    break;
+                case "Gryffindor" :
+                    title.addClass("text-danger");
+                    break;
+             }
+
             $("#container-fluid").append(title);
-            var founder = $("<h6>").text("Founder: ").addClass("text-primary");
-            var founderSP = $("<span>").text(result[iloop].founder).addClass("text-white");
+            var founder = $("<h6>").text("Founder: ")
+            var founderSP = $("<span>").text(result[iloop].founder)
             $(founder).append(founderSP);
-            var mascot = $("<h6>").text("Mascot: ").addClass("text-primary");
-            var mascotSP = $("<span>").text(result[iloop].mascot).addClass("text-white"); 
+            var mascot = $("<h6>").text("Mascot: ")
+            var mascotSP = $("<span>").text(result[iloop].mascot); 
             $(mascot).append(mascotSP);
-            var headOfHouse = $("<h6>").text("headOfHouse: ").addClass("text-primary");
-            var headOfHouseSP = $("<span>").text(result[iloop].headOfHouse).addClass("text-white"); 
+            var headOfHouse = $("<h6>").text("headOfHouse: ");
+            var headOfHouseSP = $("<span>").text(result[iloop].headOfHouse); 
             $(headOfHouse).append(headOfHouseSP);
-            var houseGhost = $("<h6>").text("houseGhost: ").addClass("text-primary");
-            var houseGhostSP = $("<span>").text(result[iloop].houseGhost).addClass("text-white"); 
+            var houseGhost = $("<h6>").text("houseGhost: ");
+            var houseGhostSP = $("<span>").text(result[iloop].houseGhost); 
             $(houseGhost).append(houseGhostSP);
             var parag = $("<p>")
             $(parag).append(founder, mascot, headOfHouse, houseGhost);
