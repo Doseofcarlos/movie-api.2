@@ -64,6 +64,6 @@ function GetInformationHouse (result, house){
             $(parag).append(founder, mascot, headOfHouse, houseGhost);
             $("#container-fluid").append(parag);
         }
-        }
+    }
 }
 
